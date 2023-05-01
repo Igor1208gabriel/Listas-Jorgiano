@@ -1,11 +1,6 @@
-com = int(input())
-dis = int(input())
-lit = int(input())
- 
-div = dis / com
-nec = div - lit 
- 
-if nec < 0:
-    print(0.0)
-else:
-    print(f"{nec:.1f}")
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print(max(a,b,c,d,e))
