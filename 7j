@@ -1,0 +1,18 @@
+n = int(input())
+lista=[]
+
+soma =1
+
+
+for i in range(n):
+    v = int(input())
+    lista.append(v)
+
+marcador = lista[0]
+
+for i in lista:
+    if marcador != i:
+        soma+=1
+        marcador = i
+
+print(soma)

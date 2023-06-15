@@ -1,0 +1,30 @@
+c = int(input())
+
+soma_negativo=0
+soma_positivo=0
+lista=[]
+lista2=[100]
+a=100
+
+for _ in range(c): #pega os valores e passa pra uma lista
+    v = int(input())
+    lista.append(v)
+
+for _ in lista:
+    a+=_
+    lista2.append(a)
+print(max(lista2))
+
+
+
+
+
+
+numero = int(input())
+    
+ganhou = 0
+for n in range(0,numero):
+    carro = int(input())
+    if carro != 1:
+        ganhou +=1
+print(ganhou)

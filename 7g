@@ -1,0 +1,21 @@
+n = int(input())
+m = list(map(int,input().split()))
+
+soma=0
+for i in m:
+    soma+=i
+
+media=soma/n
+menores=[]
+maiores=[]
+
+for _ in m:
+    if _ < media:
+        menores.append(_)
+    else:
+        maiores.append(_)
+
+print(f"{media:.1f}")
+print(len(menores),*menores)
+print(len(maiores),*maiores)
+
